@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/bus-schedules/[selected]/route": "/api/bus-schedules/[selected]",
+  "/bus/[selected]/page": "/bus/[selected]",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}
