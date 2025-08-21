@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,9195,i=>{i.v(JSON.parse('{"english":{"time":"Time","bus":"Bus Name / Number","origin":"Origin","destination":"Destination","via":"Via"},"tamil":{"time":"நேரம்","bus":"தடம் எண்","origin":"புறப்படும் இடம்","destination":"சேறும் இடம்","via":"வழி"}}'))}]);
