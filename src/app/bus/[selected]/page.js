@@ -29,7 +29,7 @@ export default function BusSchedulePage() {
     
     setSelectedStand(stand);
     
-    // Fetch bus schedule data from the JSON file
+    // Fetch bus schedule data directly from JSON file
     fetchBusSchedules(selected);
 
     let title = `${stand.label} - Bus Schedule - AK`;
@@ -42,15 +42,9 @@ export default function BusSchedulePage() {
       setLoading(true);
       setError(null);
       
-      // Import the JSON file dynamically
-      const response = await fetch(`/api/bus-schedules/${standValue}`);
-      
-      if (!response.ok) {
-        throw new Error('Failed to fetch bus schedules');
-      }
-      
-      const data = await response.json();
-      setSchedules(data);
+      // Import the JSON file directly
+      const data = await import(`../../data/${standValue}.json`);
+      setSchedules(data.default || data);
     } catch (err) {
       console.error('Error fetching bus schedules:', err);
       setError('Failed to load bus schedules. Please try again.');
