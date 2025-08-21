@@ -1,15 +1,13 @@
-'use client';
-
-import { useParams, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import styles from './page.module.css';
-import standsData from '../../data/stands.json';
-import Loader from '../../components/Loader';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import styles from './BusSchedule.module.css';
+import standsData from '../data/stands.json';
+import Loader from '../components/Loader.jsx';
+import pkg from '../../package.json';
 
-export default function BusSchedulePage() {
+export default function BusSchedule() {
   const params = useParams();
-  const router = useRouter();
+  const navigate = useNavigate();
   const [selectedStand, setSelectedStand] = useState(null);
   const [schedules, setSchedules] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -23,7 +21,7 @@ export default function BusSchedulePage() {
     
     if (!stand) {
       // If stand not found, redirect to home
-      router.push('/');
+      navigate(pkg.homepage);
       return;
     }
     
@@ -34,8 +32,11 @@ export default function BusSchedulePage() {
 
     let title = `${stand.label} - Bus Schedule - AK`;
     document.title = title;
-    document.querySelector('meta[name="description"]').setAttribute('content', title);
-  }, [params, router]);
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', title);
+    }
+  }, [params, navigate]);
 
   const fetchBusSchedules = async (standValue) => {
     try {
@@ -43,7 +44,7 @@ export default function BusSchedulePage() {
       setError(null);
       
       // Import the JSON file directly
-      const data = await import(`../../data/${standValue}.json`);
+      const data = await import(`../data/${standValue}.json`);
       setSchedules(data.default || data);
     } catch (err) {
       console.error('Error fetching bus schedules:', err);
@@ -99,7 +100,7 @@ export default function BusSchedulePage() {
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.header}>
-            <Link href="/" className={styles.backButton}>
+            <Link to={pkg.homepage} className={styles.backButton}>
               ← Back to Search
             </Link>
             <h1 className={styles.title}>

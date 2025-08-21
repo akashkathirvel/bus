@@ -1,17 +1,15 @@
-'use client';
-
 import { useState, useEffect, useRef } from 'react';
-import { useRouter } from 'next/navigation';
-import styles from './page.module.css';
-import standsData from './data/stands.json';
-import Loader from './components/Loader';
+import { useNavigate } from 'react-router-dom';
+import styles from './Home.module.css';
+import standsData from '../data/stands.json';
+import Loader from '../components/Loader.jsx';
 
 export default function Home() {
   const [selectedStand, setSelectedStand] = useState('');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isNavigating, setIsNavigating] = useState(false);
   const dropdownRef = useRef(null);
-  const router = useRouter();
+  const navigate = useNavigate();
 
   const handleStandSelect = async (stand) => {
     setSelectedStand(stand);
@@ -19,7 +17,7 @@ export default function Home() {
     setIsNavigating(true);
     
     // Navigate to the bus schedule page
-    router.push(`/bus/${stand.value}`);
+    navigate(`/bus/${stand.value}`);
   };
 
   // Handle clicking outside dropdown to close it

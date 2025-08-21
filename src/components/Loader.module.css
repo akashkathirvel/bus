@@ -234,12 +234,12 @@
   height: 4px;
   background: white;
   border-radius: 2px;
-  animation: roadMove 2s linear infinite;
+  animation: roadMove 3s linear infinite;
 }
 
 @keyframes roadMove {
-  0% { transform: translateX(-100px); }
-  100% { transform: translateX(100px); }
+  0% { transform: translateX(100px); }
+  100% { transform: translateX(-100px); }
 }
 
 /* Bus */
@@ -278,10 +278,10 @@
 
 .busDoor {
   position: absolute;
-  top: 15px;
+  top: 20px;
   right: 15px;
   width: 12px;
-  height: 25px;
+  height: 40px;
   background: #4682B4;
   border-radius: 3px;
 }
@@ -407,6 +407,10 @@
     width: 80px;
     height: 40px;
   }
+
+  .busWheels {
+    gap: 20px;
+  }
   
   .busWindows {
     gap: 4px;
@@ -416,6 +420,11 @@
     width: 10px;
     height: 12px;
   }
+
+  .busDoor {
+    top: 15px;
+    height: 15px;
+  }
   
   .mountain {
     border-left: 60px solid transparent;
@@ -424,8 +433,8 @@
   }
   
   .river {
-    width: 70%;
-    left: 15%;
+    width: 110%;
+    left: 0%;
   }
   
   .loadingText {
