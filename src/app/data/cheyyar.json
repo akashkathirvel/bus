@@ -1,0 +1,3561 @@
+[
+    {
+     "time_part": "AM",
+     "time": 0.3,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 1.15,
+     "bus": "438ATC",
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 3,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 3.2,
+     "bus": "130UD",
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 3.4,
+     "bus": "DEEN Motors",
+     "origin": "செய்யாறு",
+     "destination": "போளூர்",
+     "via": "பாராசூர், பெரணமல்லூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 3.45,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 3.5,
+     "bus": " DK Bus Service",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 4,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4,
+     "bus": 444,
+     "origin": "பெங்களூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.3,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.3,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.35,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.4,
+     "bus": "கிருஷ்ணா",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.45,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.45,
+     "bus": "சிவாஜி",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "கலவை, ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.5,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.5,
+     "bus": 239,
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.52,
+     "bus": 130,
+     "origin": "சேத்துப்பட்டு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.55,
+     "bus": "நாராயணமூர்த்தி ",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "செஞ்சி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 4.55,
+     "bus": 308,
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 5,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "செஞ்சி",
+     "via": "வந்தவாசி, தேசூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.05,
+     "bus": 279,
+     "origin": "ஆரணி",
+     "destination": "தாம்பரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.1,
+     "bus": "T56",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.1,
+     "bus": "பாலமுருகன்",
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.1,
+     "bus": "T7",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "கொருக்கை, வாழைப்பந்தல்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.15,
+     "bus": "130A\/C",
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.2,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.2,
+     "bus": "T5",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.2,
+     "bus": "T59",
+     "origin": "செய்யாறு",
+     "destination": "மடம்",
+     "via": "தவசி, தேசூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.25,
+     "bus": 130,
+     "origin": "இஞ்சிமேடு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.25,
+     "bus": 201,
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.25,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "வாலாஜா",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.25,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "AM",
+     "time": 5.3,
+     "bus": "KPK",
+     "origin": "ஆரணி",
+     "destination": "திருத்தணி",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.3,
+     "bus": "T56B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "மாம்பாக்கம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.3,
+     "bus": "ராதாகிருஷ்ணன்",
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.35,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.4,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.4,
+     "bus": "T6",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.4,
+     "bus": "ASM கலைமகள்",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.45,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.5,
+     "bus": 239,
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 5.55,
+     "bus": " ரேணுகாம்பாள்",
+     "origin": "ஆரணி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6,
+     "bus": " Welcome",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.05,
+     "bus": " SLSBS",
+     "origin": "ஆரணி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.05,
+     "bus": " T56A",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.05,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "சேத்பட்",
+     "via": "தவசி, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.1,
+     "bus": " T60",
+     "origin": "செய்யாறு",
+     "destination": "ஏழாசேரி",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.1,
+     "bus": 133,
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.1,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.1,
+     "bus": "விநாயகமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், சித்தாத்தூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.15,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.15,
+     "bus": 187,
+     "origin": "செய்யாறு",
+     "destination": "திருப்பதி",
+     "via": "ஆற்காடு, வேலூர், சித்தூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.15,
+     "bus": "T58",
+     "origin": "செய்யாறு",
+     "destination": "தேசூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.2,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.2,
+     "bus": 339,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர், காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.3,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.3,
+     "bus": "T16",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.3,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.3,
+     "bus": "T13b",
+     "origin": "செய்யாறு",
+     "destination": "பெரிய கொழப்பலூர்",
+     "via": "கொருக்கை, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.3,
+     "bus": "SLSBS",
+     "origin": "ஆரணி",
+     "destination": "சென்னை",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர், காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.4,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.4,
+     "bus": 200,
+     "origin": "ஆற்காடு",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.45,
+     "bus": 130,
+     "origin": "சேத்துப்பட்டு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.45,
+     "bus": "KMS முருகன்",
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "கலவை"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.45,
+     "bus": "செல்வவிநாயகர்",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், சுமங்கலி"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.5,
+     "bus": " சங்குபாணி",
+     "origin": "செய்யாறு",
+     "destination": "செங்கல்பட்டு",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.5,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.5,
+     "bus": 308,
+     "origin": "ஆற்காடு",
+     "destination": "திருச்சி",
+     "via": "வந்தவாசி, திண்டிவனம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 6.55,
+     "bus": 444,
+     "origin": "செய்யாறு",
+     "destination": "பெங்களூர்",
+     "via": "ஆற்காடு, வேலூர், ஆம்பூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7,
+     "bus": 279,
+     "origin": "ஆரணி",
+     "destination": "தாம்பரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.03,
+     "bus": " PRMS",
+     "origin": "மலையனூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.1,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.1,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "திருத்தணி",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.1,
+     "bus": "SKBS",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.1,
+     "bus": "பாலாஜி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "AM",
+     "time": 7.15,
+     "bus": " A25",
+     "origin": "ஆரணி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.15,
+     "bus": "VMBS",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.2,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.2,
+     "bus": 200,
+     "origin": "வேலூர்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.23,
+     "bus": " TW4",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.25,
+     "bus": 248,
+     "origin": "போளூர்",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.3,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.3,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "படவேடு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.3,
+     "bus": "SKBS",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "திண்டிவனம்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.3,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.35,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.35,
+     "bus": "SAH",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.35,
+     "bus": "குமரன்",
+     "origin": "உத்திரமேரூர்",
+     "destination": "ஆரணி",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "AM",
+     "time": 7.35,
+     "bus": "SAM",
+     "origin": "ஆற்காடு",
+     "destination": "கோவிலூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.4,
+     "bus": "பாலசுப்ரமணியர்",
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.45,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.45,
+     "bus": 444,
+     "origin": "செய்யாறு",
+     "destination": "பெங்களூர்",
+     "via": "ஆற்காடு, வேலூர், ஆம்பூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.5,
+     "bus": "SKBS",
+     "origin": "போளூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.5,
+     "bus": "JK Bus Service",
+     "origin": "தக்கோலம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.5,
+     "bus": 428,
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.55,
+     "bus": "438ATC",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.55,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "கொருக்கை, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "AM",
+     "time": 7.55,
+     "bus": "T56B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "மாம்பாக்கம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8,
+     "bus": "APL",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.05,
+     "bus": " 212H",
+     "origin": "செய்யாறு",
+     "destination": "திருப்பதி",
+     "via": "காஞ்சிபுரம், திருத்தணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.1,
+     "bus": "T59",
+     "origin": "செய்யாறு",
+     "destination": "முனுகப்பட்டு",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "AM",
+     "time": 8.15,
+     "bus": 209,
+     "origin": "வேலூர்",
+     "destination": "பாண்டிச்சேரி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.15,
+     "bus": 235,
+     "origin": "போளூர்",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.15,
+     "bus": 209,
+     "origin": "வேலூர்",
+     "destination": "பாண்டிச்சேரி",
+     "via": "வந்தவாசி, திண்டிவனம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.15,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "AM",
+     "time": 8.18,
+     "bus": "விஜயலட்சுமி",
+     "origin": "படவேடு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.2,
+     "bus": 130,
+     "origin": "ஆரணி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.2,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.2,
+     "bus": 200,
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.25,
+     "bus": "T7",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.25,
+     "bus": "VMBS",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.25,
+     "bus": "T6",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "கொருக்கை, வாழைப்பந்தல்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.3,
+     "bus": " தாதா",
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.35,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.35,
+     "bus": "KPK",
+     "origin": "தேவிகாபுரம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.4,
+     "bus": " பிரசன்னா",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.4,
+     "bus": "SAH",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.45,
+     "bus": "முருகன்",
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.45,
+     "bus": "T12",
+     "origin": "செய்யாறு",
+     "destination": "ஆவணியாபுரம்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "AM",
+     "time": 8.45,
+     "bus": "T13B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.45,
+     "bus": "DEEN Motors",
+     "origin": "செய்யாறு",
+     "destination": "சேத்துப்பட்டு",
+     "via": "பாராசூர், பெரணமல்லூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.5,
+     "bus": 205,
+     "origin": "குடியாத்தம்",
+     "destination": "பாண்டிச்சேரி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.5,
+     "bus": 212,
+     "origin": "செய்யாறு",
+     "destination": "திருப்பதி",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.5,
+     "bus": " பாலமுருகன்",
+     "origin": "ஆற்காடு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.5,
+     "bus": 475,
+     "origin": "செய்யாறு",
+     "destination": "பெங்களூர்",
+     "via": "பாராசூர், திருவண்ணாமலை"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.51,
+     "bus": "பாலாஜி",
+     "origin": "பெரணமல்லூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 8.55,
+     "bus": " T11",
+     "origin": "செய்யாறு",
+     "destination": "முக்கூர்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "AM",
+     "time": 9,
+     "bus": "T26",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9,
+     "bus": "SKBS",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.05,
+     "bus": 205,
+     "origin": "குடியாத்தம்",
+     "destination": "பாண்டிச்சேரி",
+     "via": "வந்தவாசி, திண்டிவனம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.1,
+     "bus": "விநாயகமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.1,
+     "bus": " T16",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.15,
+     "bus": "130UD",
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.15,
+     "bus": "DK Bus Service",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.15,
+     "bus": "ஸ்ரீநிவாசா",
+     "origin": "பிரம்மதேசம்",
+     "destination": "கொருக்காத்தூர்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "AM",
+     "time": 9.15,
+     "bus": "SAM",
+     "origin": "கோவிலூர்",
+     "destination": "ஆற்காடு",
+     "via": "கலவை,"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.15,
+     "bus": "T58",
+     "origin": "செய்யாறு",
+     "destination": "தேசூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.2,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.2,
+     "bus": " ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "புதுமல்லவாடி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.2,
+     "bus": "TW1",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.2,
+     "bus": "விநாயகமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், சித்தாத்தூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.25,
+     "bus": "APR Bus service",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.3,
+     "bus": " T25",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.3,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சேத்துப்பட்டு",
+     "via": "கொருக்கை, கொழப்பலூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.35,
+     "bus": "T56",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.35,
+     "bus": "செல்வவிநாயகர்",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், சுமங்கலி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.4,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.4,
+     "bus": "PRMS",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "மலையனூர்",
+     "via": "கொருக்கை, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.4,
+     "bus": "PRMS",
+     "origin": "சேத்துப்பட்டு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், விண்ணவாடி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.45,
+     "bus": 201,
+     "origin": "வேலூர்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.5,
+     "bus": " தனபால்",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "போளூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.5,
+     "bus": 123,
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.52,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "ஆரணி",
+     "destination": "திருத்தணி",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.55,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "செஞ்சி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 9.55,
+     "bus": "Welcome",
+     "origin": "முள்ளன்டிரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10,
+     "bus": 424,
+     "origin": "திருவண்ணாமலை",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.05,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.1,
+     "bus": "துளசி",
+     "origin": "செய்யாறு",
+     "destination": "வள்ளுவம்பாக்கம்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.1,
+     "bus": "T56B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "மாம்பாக்கம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.15,
+     "bus": 240,
+     "origin": "போளூர்",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.15,
+     "bus": " பாலமுருகன்",
+     "origin": "வந்தவாசி",
+     "destination": "ஆற்காடு",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.15,
+     "bus": "SKBS",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.2,
+     "bus": " T11",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.2,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.25,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.25,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "படவேடு",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.27,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.3,
+     "bus": "JK BUS SERVICE",
+     "origin": "வந்தவாசி",
+     "destination": "தக்கோலம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.3,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.3,
+     "bus": "சிவாஜி",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "கலவை, ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.35,
+     "bus": 279,
+     "origin": "ஆரணி",
+     "destination": "தாம்பரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.35,
+     "bus": "SKBS",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "போளூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.35,
+     "bus": 201,
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.35,
+     "bus": "T59",
+     "origin": "செய்யாறு",
+     "destination": "தேசூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.4,
+     "bus": 444,
+     "origin": "வந்தவாசி",
+     "destination": "பெங்களூர்",
+     "via": "ஆற்காடு, வேலூர், ஆம்பூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.4,
+     "bus": "ராதாகிருஷ்ணன்",
+     "origin": "கோவிலூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், பெருங்கட்டூர்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.45,
+     "bus": "APL",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.45,
+     "bus": 130,
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.45,
+     "bus": "T10A",
+     "origin": "செய்யாறு",
+     "destination": "வெம்பாக்கம்",
+     "via": "வெம்பாக்கம், பெரியகோவில்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.5,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.5,
+     "bus": " தாதா",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.55,
+     "bus": "T13b",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.55,
+     "bus": "KPK",
+     "origin": "திருத்தணி",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.55,
+     "bus": "ASM கலைமகள்",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 10.55,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "AM",
+     "time": 11.05,
+     "bus": 239,
+     "origin": "திருவண்ணாமலை",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.12,
+     "bus": " ரேணுகாம்பாள் ",
+     "origin": "ஆரணி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.15,
+     "bus": 200,
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.15,
+     "bus": "KMS முருகன்",
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "கலவை,"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.15,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, வெடால்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.2,
+     "bus": "TW1",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.25,
+     "bus": "பாலசுப்ரமணியர்",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "AM",
+     "time": 11.25,
+     "bus": "பாலாஜி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "AM",
+     "time": 11.3,
+     "bus": 279,
+     "origin": "தாம்பரம்",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.3,
+     "bus": "VMBS",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.3,
+     "bus": "T7",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "கொருக்கை, வாழைபந்தல்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.35,
+     "bus": "130A\/C",
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.4,
+     "bus": 341,
+     "origin": "சென்னை",
+     "destination": "திருவண்ணாமலை",
+     "via": "கொருக்கை, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.45,
+     "bus": "ஸ்ரீராமஜெயம்",
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.45,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "AM",
+     "time": 11.5,
+     "bus": "TW10",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.55,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.55,
+     "bus": "பிரசன்னா",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.55,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "AM",
+     "time": 11.55,
+     "bus": "T16",
+     "origin": "செய்யாறு",
+     "destination": "முக்கூர்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 12,
+     "bus": "விஜயலட்சுமி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "படவேடு",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.02,
+     "bus": " நாராயணமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.05,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, தேசூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.05,
+     "bus": "DEEN Motors",
+     "origin": "செய்யாறு",
+     "destination": "போளூர்",
+     "via": "பாராசூர், பெரணமல்லூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.1,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "சேத்பட்",
+     "via": "தவசி, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.15,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "வேலூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.15,
+     "bus": "PRMS",
+     "origin": "உத்திரமேரூர்",
+     "destination": "சேத்துப்பட்டு",
+     "via": "தவசி, வல்லம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.17,
+     "bus": "T9",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.2,
+     "bus": 200,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.25,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.25,
+     "bus": 121,
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.3,
+     "bus": " T6",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.3,
+     "bus": 200,
+     "origin": "வேலூர்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.3,
+     "bus": "TW4",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.3,
+     "bus": "T12",
+     "origin": "செய்யாறு",
+     "destination": "வாழைபந்தல்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 12.3,
+     "bus": "T58",
+     "origin": "செய்யாறு",
+     "destination": "வல்லம்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.4,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.4,
+     "bus": "Welcome",
+     "origin": "வந்தவாசி",
+     "destination": "முள்ளண்டிரம்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.45,
+     "bus": "கிருஷ்ணா",
+     "origin": "திண்டிவனம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 12.5,
+     "bus": "239A",
+     "origin": "திருவண்ணாமலை",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.5,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 12.55,
+     "bus": "T56A",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13,
+     "bus": 130,
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13,
+     "bus": 201,
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 13,
+     "bus": "T56B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "மாம்பாக்கம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.05,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.05,
+     "bus": "T59",
+     "origin": "செய்யாறு",
+     "destination": "பெரிய கொழப்பலூர்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 13.1,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.1,
+     "bus": 438,
+     "origin": "செங்கம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.1,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.1,
+     "bus": "VMBS",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.1,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 13.1,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.15,
+     "bus": "SAH",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.2,
+     "bus": 130,
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.2,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், விண்ணவாடி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.25,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.25,
+     "bus": "பாலமுருகன்",
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.3,
+     "bus": " பாலாஜி",
+     "origin": "பெரணமல்லூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.3,
+     "bus": "KMS முருகன்",
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "கலவை,"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.35,
+     "bus": 130,
+     "origin": "சேத்துப்பட்டு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.35,
+     "bus": 279,
+     "origin": "தாம்பரம்",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.35,
+     "bus": "ஸ்ரீநிவாசா",
+     "origin": "பிரம்மதேசம்",
+     "destination": "ஆரணி",
+     "via": "கொருக்கை, வாழைப்பந்தல்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.4,
+     "bus": 130,
+     "origin": "திருவண்ணாமலை",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.4,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.4,
+     "bus": "TW1",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.4,
+     "bus": "செல்வவிநாயகர்",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 13.45,
+     "bus": " தனபால்",
+     "origin": "போளூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.5,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.5,
+     "bus": " தாதா",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.5,
+     "bus": "குமரன்",
+     "origin": "உத்திரமேரூர்",
+     "destination": "ஆரணி",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 13.5,
+     "bus": "SAM",
+     "origin": "ஆற்காடு",
+     "destination": "கோவிலூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 13.55,
+     "bus": "T26",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14,
+     "bus": 279,
+     "origin": "ஆரணி",
+     "destination": "தாம்பரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14,
+     "bus": "T16",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14,
+     "bus": 201,
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.05,
+     "bus": "விநாயகமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், சித்தாத்தூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.1,
+     "bus": "T56",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.1,
+     "bus": "பாலசுப்ரமணியர்",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.1,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "வேலூர்",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.15,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.15,
+     "bus": "T13b",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "தவசி, கோட்டகரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.2,
+     "bus": "APR Bus Service",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.2,
+     "bus": "VMBS",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.25,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.25,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "போளூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.3,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "செஞ்சி",
+     "via": "வந்தவாசி, தேசூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.3,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "செஞ்சி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.3,
+     "bus": 248,
+     "origin": "சென்னை",
+     "destination": "போளூர்",
+     "via": "கொருக்கை, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.3,
+     "bus": "T58",
+     "origin": "செய்யாறு",
+     "destination": "தேசூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.35,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.35,
+     "bus": "SAH",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.4,
+     "bus": " சங்குபாணி",
+     "origin": "கலவை",
+     "destination": "செங்கல்பட்டு",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.45,
+     "bus": "T10",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.45,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.45,
+     "bus": "DK Bus Service",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.5,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.55,
+     "bus": " KPK",
+     "origin": "ஆரணி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.55,
+     "bus": "T56C",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "பாலி"
+    },
+    {
+     "time_part": "PM",
+     "time": 14.57,
+     "bus": " பிரசன்னா EXP",
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15,
+     "bus": "438 ATC",
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.05,
+     "bus": 200,
+     "origin": "வேலூர்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.05,
+     "bus": "துளசி",
+     "origin": "செய்யாறு",
+     "destination": "வள்ளுவம்பாக்கம்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.1,
+     "bus": 209,
+     "origin": "பாண்டிச்சேரி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.1,
+     "bus": "T56B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "மாம்பாக்கம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.15,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.15,
+     "bus": "பாலமுருகன்",
+     "origin": "ஆற்காடு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.15,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "தவசி, சேத்பட்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.2,
+     "bus": "T10",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.2,
+     "bus": "SAM",
+     "origin": "கோவிலூர்",
+     "destination": "ஆற்காடு",
+     "via": "கலவை,"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.25,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "படவேடு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.25,
+     "bus": "SLSBS",
+     "origin": "சென்னை",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.3,
+     "bus": "JK Bus Service",
+     "origin": "தக்கால",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.3,
+     "bus": "T59",
+     "origin": "செய்யாறு",
+     "destination": "முனுகப்பட்டு",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 15.35,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.35,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "மாளிகைப்பட்டு",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 15.4,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.4,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.4,
+     "bus": 235,
+     "origin": "சென்னை",
+     "destination": "போளூர்",
+     "via": "கொருக்கை, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.45,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.45,
+     "bus": "T6",
+     "origin": "செய்யாறு",
+     "destination": "வல்லம்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.5,
+     "bus": "PRMS",
+     "origin": "மலையனூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.5,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.5,
+     "bus": "SKBS",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "திண்டிவனம்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.5,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "வாலாஜா",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.52,
+     "bus": "ஸ்ரீராமஜெயம்",
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 15.55,
+     "bus": "T56",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16,
+     "bus": 130,
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16,
+     "bus": "தனபால்",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "போளூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16,
+     "bus": 200,
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 16,
+     "bus": "பாலசுப்பிரமணியர்",
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 16.05,
+     "bus": "APL",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.1,
+     "bus": "TW3",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.1,
+     "bus": "சிவாஜி",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "கலவை, ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.15,
+     "bus": 187,
+     "origin": "திருப்பதி",
+     "destination": "பாண்டிச்சேரி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.15,
+     "bus": 279,
+     "origin": "ஆரணி",
+     "destination": "தாம்பரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.2,
+     "bus": " T9",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.2,
+     "bus": 279,
+     "origin": "தாம்பரம்",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.2,
+     "bus": 200,
+     "origin": "வேலூர்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.25,
+     "bus": "SKBS",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.25,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "சேத்பட்",
+     "via": "தவசி, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.35,
+     "bus": "KPK",
+     "origin": "தேவிகாபுரம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 16.4,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.4,
+     "bus": " TW1",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, தேசூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": "438 ATC",
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": "முருகன்",
+     "origin": "செய்யாறு",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": 187,
+     "origin": "திருப்பதி",
+     "destination": "பாண்டிச்சேரி",
+     "via": "வந்தவாசி, திண்டிவனம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": "APR Bus service",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": "பாலாஜி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 16.45,
+     "bus": "நாராயணமூர்த்தி",
+     "origin": "செய்யாறு",
+     "destination": "செஞ்சி",
+     "via": "தவசி, வெடால்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.5,
+     "bus": "தாதா",
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.55,
+     "bus": 666,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 16.55,
+     "bus": "பிரசன்னா",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17,
+     "bus": "T16",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17,
+     "bus": "T11",
+     "origin": "செய்யாறு",
+     "destination": "முக்கூர்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 17,
+     "bus": "செல்வவிநாயகர்",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 17,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 17.07,
+     "bus": "பாலமுருகன்",
+     "origin": "வந்தவாசி",
+     "destination": "ஆற்காடு",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.07,
+     "bus": "VMBS",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.1,
+     "bus": " விஜயலட்சுமி",
+     "origin": "படவேடு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.1,
+     "bus": 303,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.1,
+     "bus": 240,
+     "origin": "சென்னை",
+     "destination": "போளூர்",
+     "via": "கொருக்கை, சேத்துப்பட்டு"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.15,
+     "bus": "DEEN Motors",
+     "origin": "செய்யாறு",
+     "destination": "சேத்துப்பட்டு",
+     "via": "பாராசூர், பெரணமல்லூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.2,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.2,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.2,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.25,
+     "bus": "T58",
+     "origin": "செய்யாறு",
+     "destination": "தேசூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.3,
+     "bus": " SKBS",
+     "origin": "போளூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.3,
+     "bus": "ASM கலைமகள்",
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.3,
+     "bus": "SKBS",
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.4,
+     "bus": 122,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.4,
+     "bus": 339,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.4,
+     "bus": "TW4",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.4,
+     "bus": "ராதாகிருஷ்ணன்",
+     "origin": "வந்தவாசி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 17.5,
+     "bus": " KPK",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.5,
+     "bus": "Welcome",
+     "origin": "முள்ளன்டிரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.5,
+     "bus": "T7",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "கொருக்கை, வாழைப்பந்தல்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.55,
+     "bus": " JK Bus Service",
+     "origin": "வந்தவாசி",
+     "destination": "தக்கோலம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 17.57,
+     "bus": "ஸ்ரீராமஜெயம்",
+     "origin": "வந்தவாசி",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18,
+     "bus": "T56B",
+     "origin": "செய்யாறு",
+     "destination": "கலவை",
+     "via": "மாம்பாக்கம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.05,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.05,
+     "bus": 200,
+     "origin": "வேலூர்",
+     "destination": "திண்டிவனம்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.1,
+     "bus": " 212H",
+     "origin": "செய்யாறு",
+     "destination": "திருப்பதி",
+     "via": "காஞ்சிபுரம், திருத்தணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.1,
+     "bus": "SAH",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.12,
+     "bus": " ரேணுகாம்பாள் ",
+     "origin": "படவேடு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.15,
+     "bus": " T59",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.2,
+     "bus": 424,
+     "origin": "சென்னை",
+     "destination": "சேத்பட்",
+     "via": "கொருக்கை, பெரிய கொழப்பலூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.25,
+     "bus": " T11",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.25,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "படவேடு",
+     "via": "கொருக்கை, ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.3,
+     "bus": 239,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.3,
+     "bus": 227,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "திருவண்ணாமலை",
+     "via": "ஆரணி, போளூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.3,
+     "bus": "TW1",
+     "origin": "செய்யாறு",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.3,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.3,
+     "bus": "PRMS",
+     "origin": "உத்திரமேரூர்",
+     "destination": "சேத்துப்பட்டு",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.35,
+     "bus": 279,
+     "origin": "ஆரணி",
+     "destination": "தாம்பரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.4,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.4,
+     "bus": " SKBS",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.4,
+     "bus": 205,
+     "origin": "பாண்டிச்சேரி",
+     "destination": "குடியாத்தம்",
+     "via": "ஆற்காடு, வேலூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.45,
+     "bus": "பாலாஜி",
+     "origin": "பெரணமல்லூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.45,
+     "bus": "KMS முருகன்",
+     "origin": "செய்யாறு",
+     "destination": "ஆற்காடு",
+     "via": "கலவை,"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.5,
+     "bus": "பாலசுப்ரமணியர்",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.5,
+     "bus": 1.07,
+     "origin": "வேலூர்",
+     "destination": "மேல்மருவத்தூர்",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 18.5,
+     "bus": "PRMS",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "மலையனூர்",
+     "via": "கொருக்கை, பெரணமல்லூர்"
+    },
+    {
+     "time_part": "PM",
+     "time": 19,
+     "bus": 130,
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19,
+     "bus": "T56",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 19.1,
+     "bus": "T56",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.1,
+     "bus": "T10",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.1,
+     "bus": 200,
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.15,
+     "bus": 438,
+     "origin": "செய்யாறு",
+     "destination": "சேலம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.2,
+     "bus": "T9",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.25,
+     "bus": " நாராயணமூர்த்தி",
+     "origin": "செஞ்சி",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.25,
+     "bus": "VMBS",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.28,
+     "bus": "ரேணுகாம்பாள் ",
+     "origin": "செய்யாறு",
+     "destination": "புதுமல்லவாடி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.3,
+     "bus": "PRMS",
+     "origin": "செய்யாறு",
+     "destination": "சேத்துப்பட்டு",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.35,
+     "bus": " பிரசன்னா",
+     "origin": "மருவத்தூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.35,
+     "bus": 666,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "திருச்சி",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.35,
+     "bus": " தாதா",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.35,
+     "bus": "VMBS",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.4,
+     "bus": "விஜயலட்சுமி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "படவேடு",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.5,
+     "bus": "சங்குபாணி",
+     "origin": "செய்யாறு",
+     "destination": "செங்கல்பட்டு",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 19.5,
+     "bus": "SAH",
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 20,
+     "bus": "T16",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20,
+     "bus": "438ATC",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 20,
+     "bus": "T13",
+     "origin": "செய்யாறு",
+     "destination": "பெரணமல்லூர்",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 20.05,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.1,
+     "bus": 201,
+     "origin": "செய்யாறு",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.15,
+     "bus": " தனபால்",
+     "origin": "போளூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.15,
+     "bus": "விஜயலட்சுமி",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "படவேடு",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.15,
+     "bus": "438ATC",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.2,
+     "bus": 200,
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.2,
+     "bus": "குமரன்",
+     "origin": "உத்திரமேரூர்",
+     "destination": "ஆரணி",
+     "via": "பாராசூர், "
+    },
+    {
+     "time_part": "PM",
+     "time": 20.25,
+     "bus": 239,
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.25,
+     "bus": 200,
+     "origin": "மேல்மருவத்தூர்",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.3,
+     "bus": "T12",
+     "origin": "செய்யாறு",
+     "destination": "ஆவணியாபுரம்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 20.3,
+     "bus": "SAM",
+     "origin": "கோவிலூர்",
+     "destination": "ஆற்காடு",
+     "via": "கலவை,"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.35,
+     "bus": " ரேணுகாம்பாள் ",
+     "origin": "வேலூர்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.4,
+     "bus": 279,
+     "origin": "தாம்பரம்",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.45,
+     "bus": "122ARN",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.45,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.5,
+     "bus": "APL",
+     "origin": "செய்யாறு",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.5,
+     "bus": "APR Bus Service",
+     "origin": "வேலூர்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 20.5,
+     "bus": "ஸ்ரீநிவாசா",
+     "origin": "பிரம்மதேசம்",
+     "destination": "கொருக்காத்தூர்",
+     "via": "கொருக்கை, "
+    },
+    {
+     "time_part": "PM",
+     "time": 21,
+     "bus": 130,
+     "origin": "செய்யாறு",
+     "destination": "சென்னை",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 21,
+     "bus": 473,
+     "origin": "செய்யாறு",
+     "destination": "பெங்களூர்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 21,
+     "bus": "கிருஷ்ணா",
+     "origin": "திண்டிவனம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "வெம்பாக்கம், "
+    },
+    {
+     "time_part": "PM",
+     "time": 21.05,
+     "bus": "ராதாகிருஷ்ணன்",
+     "origin": "காஞ்சிபுரம்",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 21.25,
+     "bus": 438,
+     "origin": "காஞ்சிபுரம்",
+     "destination": "சேலம்",
+     "via": "ஆரணி, திருவண்ணாமலை"
+    },
+    {
+     "time_part": "PM",
+     "time": 21.3,
+     "bus": 336,
+     "origin": "சென்னை",
+     "destination": "இஞ்சிமேடு சிவன் கோயில்",
+     "via": "கொருக்கை"
+    },
+    {
+     "time_part": "PM",
+     "time": 21.3,
+     "bus": "T58",
+     "origin": "செய்யாறு",
+     "destination": "தேசூர்",
+     "via": "தவசி,"
+    },
+    {
+     "time_part": "PM",
+     "time": 21.45,
+     "bus": " T56",
+     "origin": "செய்யாறு",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 22,
+     "bus": 201,
+     "origin": "வந்தவாசி",
+     "destination": "வேலூர்",
+     "via": "ஆற்காடு"
+    },
+    {
+     "time_part": "PM",
+     "time": 22.05,
+     "bus": 438,
+     "origin": "சேலம்",
+     "destination": "காஞ்சிபுரம்",
+     "via": "காஞ்சிபுரம்"
+    },
+    {
+     "time_part": "PM",
+     "time": 22.1,
+     "bus": 130,
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    },
+    {
+     "time_part": "PM",
+     "time": 22.15,
+     "bus": 279,
+     "origin": "தாம்பரம்",
+     "destination": "ஆரணி",
+     "via": "ஆரணி"
+    },
+    {
+     "time_part": "PM",
+     "time": 22.3,
+     "bus": "ஸ்ரீ ராமஜெயம்",
+     "origin": "சென்னை",
+     "destination": "வந்தவாசி",
+     "via": "வந்தவாசி"
+    }
+]
