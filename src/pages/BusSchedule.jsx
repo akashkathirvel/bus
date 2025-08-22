@@ -150,17 +150,13 @@ export default function BusSchedule() {
                           <svg 
                             width="24" 
                             height="24" 
-                            viewBox="0 0 24 24"
                             fill="none"
-                            stroke="currentColor"
                             strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            style={{
-                              color: '#6366f1',
-                              marginLeft: '8px',
-                              marginRight: '8px'
-                            }}
+                            className={styles.arrowIcon}
                           >
                             <line x1="5" y1="12" x2="19" y2="12" />
                             <polyline points="12 5 19 12 12 19" />

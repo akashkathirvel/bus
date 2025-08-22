@@ -1,13 +1,14 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import BusSchedule from './pages/BusSchedule'
+import { Routes, Route } from 'react-router-dom';
+import BusSchedule from './pages/BusSchedule';
+import pkg from '../package.json';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/bus" element={<Home />} />
-      <Route path="/bus/:selected" element={<BusSchedule />} />
+      <Route path={pkg.homepage} element={<Home />} />
+      <Route path={`${pkg.homepage}/:selected`} element={<BusSchedule />} />
     </Routes>
   )
 }

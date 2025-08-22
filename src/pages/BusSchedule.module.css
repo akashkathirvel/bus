@@ -15,7 +15,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%);
+  background: linear-gradient(135deg, var(--background) 0%, var(--gradient-dark-1) 25%, var(--gradient-dark-2) 50%, var(--gradient-dark-3) 75%, var(--gradient-dark-4) 100%);
   z-index: -2;
 }
 
@@ -25,7 +25,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle at 50% 50%, var(--overlay-light) 0%, transparent 70%);
   z-index: -1;
 }
 
@@ -54,28 +54,28 @@
 .backButton {
   display: inline-flex;
   align-items: center;
-  color: #6366f1;
+  color: var(--primary);
   font-weight: 600;
   text-decoration: none;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   transition: all 0.3s ease;
-  /* background: rgba(99, 102, 241, 0.1); */
-  /* border: 1px solid rgba(99, 102, 241, 0.2); */
+  /* background: var(--primary-light); */
+  /* border: 1px solid var(--primary-border); */
 }
 
 .backButton:hover {
-  background: rgba(99, 102, 241, 0.2);
+  background: var(--primary-light);
   transform: translateX(-4px);
 }
 
 .title {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
-  color: #ffffff;
+  color: var(--white);
   margin-bottom: 1rem;
-  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 4px 8px var(--shadow-medium);
   letter-spacing: -0.02em;
 }
 
@@ -112,12 +112,18 @@
 .standName {
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 600;
-  color: #6366f1;
-  margin-bottom: 0.5rem;
+  color: var(--primary);
+  /* margin-bottom: 0.5rem; */
+}
+
+.arrowIcon {
+  color: var(--primary);
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .standCode {
-  color: #a0a0a0;
+  color: var(--text-muted);
   font-size: 0.9rem;
   font-family: 'Courier New', monospace;
 }
@@ -133,21 +139,21 @@
   align-items: center;
   margin-bottom: 1.5rem;
   padding: 1rem 1.5rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--overlay-medium);
   border-radius: 12px;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--overlay-border);
 }
 
 .scheduleHeader h3 {
-  color: #ffffff;
+  color: var(--white);
   font-size: 1.25rem;
   font-weight: 600;
   margin: 0;
 }
 
 .scheduleCount {
-  color: #a0a0a0;
+  color: var(--text-muted);
   font-size: 0.9rem;
   margin: 0;
 }
@@ -160,8 +166,8 @@
 }
 
 .scheduleCard {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--overlay-medium);
+  border: 1px solid var(--overlay-border);
   border-radius: 12px;
   padding: 1.5rem;
   backdrop-filter: blur(10px);
@@ -170,9 +176,9 @@
 }
 
 .scheduleCard:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--overlay-heavy);
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 25px var(--shadow-medium);
 }
 
 .scheduleTime {
@@ -181,26 +187,26 @@
   align-items: center;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--overlay-medium);
 }
 
 .time {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #6366f1;
+  color: var(--primary);
   font-family: 'Courier New', monospace;
 }
 
 .busNumber {
   padding: 0.25rem 0.75rem;
-  background: rgba(99, 102, 241, 0.2);
-  color: #6366f1;
+  background: var(--primary-light);
+  color: var(--white);
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border: 1px solid rgba(99, 102, 241, 0.3);
+  border: 1px solid var(--primary-border);
 }
 
 .scheduleDetails {
@@ -222,13 +228,13 @@
 }
 
 .label {
-  color: #a0a0a0;
+  color: var(--text-muted);
   font-size: 0.9rem;
   font-weight: 500;
 }
 
 .value {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 600;
   text-align: right;
   max-width: 60%;
@@ -246,8 +252,8 @@
 }
 
 .errorCard {
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid rgba(239, 68, 68, 0.3);
+  background: var(--error-light);
+  border: 1px solid var(--error-border);
   border-radius: 12px;
   padding: 2rem;
   backdrop-filter: blur(10px);
@@ -256,23 +262,23 @@
 }
 
 .errorCard h3 {
-  color: #ef4444;
+  color: var(--error);
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .errorCard p {
-  color: #b8b8b8;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
 
 .retryButton {
-  background: rgba(99, 102, 241, 0.2);
-  color: #6366f1;
-  border: 1px solid rgba(99, 102, 241, 0.3);
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary-border);
   border-radius: 8px;
   padding: 0.75rem 1.5rem;
   font-size: 0.9rem;
@@ -282,7 +288,7 @@
 }
 
 .retryButton:hover {
-  background: rgba(99, 102, 241, 0.3);
+  background: var(--primary-hover);
   transform: translateY(-2px);
 }
 

@@ -14,7 +14,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%);
+  background: linear-gradient(135deg, var(--background) 0%, var(--gradient-dark-1) 25%, var(--gradient-dark-2) 50%, var(--gradient-dark-3) 75%, var(--gradient-dark-4) 100%);
   z-index: -2;
 }
 
@@ -23,13 +23,24 @@
   height: 85px;
 }
 
+.tagline {
+  font-weight: 600;
+  margin-top: -25px;
+  margin-left: 80px;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-shadow: 0 2px 4px var(--shadow-medium);
+}
+
 .backgroundOverlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle at 50% 50%, var(--overlay-light) 0%, transparent 70%);
   z-index: -1;
 }
 
@@ -57,9 +68,9 @@
 .title {
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 700;
-  color: #ffffff;
+  color: var(--white);
   margin-bottom: 1rem;
-  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 4px 8px var(--shadow-medium);
   letter-spacing: -0.02em;
 }
 
@@ -71,7 +82,7 @@
 
 .subtitle {
   font-size: clamp(1rem, 2vw, 1.25rem);
-  color: #b8b8b8;
+  color: var(--text-secondary);
   font-weight: 400;
   margin: 0;
   opacity: 0.9;
@@ -94,7 +105,7 @@
 .label {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--white);
   text-align: left;
   margin-bottom: 0.5rem;
 }
@@ -107,10 +118,10 @@
 .dropdownButton {
   width: 100%;
   padding: 1rem 1.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: var(--overlay-medium);
+  border: 2px solid var(--overlay-border);
   border-radius: 12px;
-  color: #ffffff;
+  color: var(--white);
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -123,16 +134,16 @@
 }
 
 .dropdownButton:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: var(--overlay-heavy);
+  border-color: var(--overlay-border-heavy);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 25px var(--shadow-medium);
 }
 
 .dropdownButton.active {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #6366f1;
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-border);
 }
 
 .dropdownText {
@@ -143,12 +154,12 @@
 .dropdownArrow {
   font-size: 0.8rem;
   transition: transform 0.3s ease;
-  color: #a0a0a0;
+  color: var(--text-muted);
 }
 
 .dropdownArrow.rotated {
   transform: rotate(180deg);
-  color: #6366f1;
+  color: var(--primary);
 }
 
 .dropdownMenu {
@@ -156,12 +167,12 @@
   top: 100%;
   left: 0;
   right: 0;
-  background: rgba(30, 30, 30, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--dropdown-bg);
+  border: 1px solid var(--overlay-medium);
   border-radius: 12px;
   margin-top: 0.5rem;
   backdrop-filter: blur(15px);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 40px var(--shadow-heavy);
   z-index: 1000;
   animation: slideDown 0.3s ease-out;
   max-height: 300px;
@@ -173,12 +184,12 @@
   padding: 1rem 1.5rem;
   background: transparent;
   border: none;
-  color: #ffffff;
+  color: var(--white);
   font-size: 1rem;
   text-align: left;
   cursor: pointer;
   transition: all 0.2s ease;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid var(--overlay-light);
 }
 
 .dropdownItem:last-child {
@@ -186,8 +197,8 @@
 }
 
 .dropdownItem:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #6366f1;
+  background: var(--overlay-medium);
+  color: var(--primary);
 }
 
 /* Instruction Card */
@@ -196,8 +207,8 @@
 }
 
 .infoCard {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--overlay-medium);
+  border: 1px solid var(--overlay-border);
   border-radius: 12px;
   padding: 1.5rem;
   backdrop-filter: blur(10px);
@@ -205,13 +216,13 @@
 }
 
 .infoCard:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--overlay-heavy);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px var(--shadow-light);
 }
 
 .infoCard h3 {
-  color: #6366f1;
+  color: var(--primary);
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -219,7 +230,7 @@
 }
 
 .infoCard p {
-  color: #b8b8b8;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
@@ -238,7 +249,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #ffffff;
+  color: var(--white);
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -415,13 +426,13 @@
 /* Focus states for accessibility */
 .dropdownButton:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 0 0 3px var(--primary-shadow);
 }
 
 .dropdownItem:focus {
   outline: none;
-  background: rgba(99, 102, 241, 0.2);
-  color: #6366f1;
+  background: var(--primary-light);
+  color: var(--primary);
 }
 
 /* Scrollbar styling for dropdown */
@@ -430,12 +441,12 @@
 }
 
 .dropdownMenu::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--overlay-medium);
   border-radius: 3px;
 }
 
 .dropdownMenu::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--overlay-border-heavy);
   border-radius: 3px;
 }
 

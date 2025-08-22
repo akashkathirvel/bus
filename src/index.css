@@ -1,10 +1,35 @@
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
-  --primary: #6366f1;
-  --primary-hover: #4f46e5;
+  --primary: #FF2A39;
+  --primary-hover: #e61e2b;
   --text-muted: #a0a0a0;
   --border: rgba(255, 255, 255, 0.1);
+  
+  /* Additional color variables */
+  --white: #ffffff;
+  --text-secondary: #b8b8b8;
+  --error: #ef4444;
+  --error-light: rgba(239, 68, 68, 0.1);
+  --error-border: rgba(239, 68, 68, 0.3);
+  --overlay-light: rgba(255, 255, 255, 0.05);
+  --overlay-medium: rgba(255, 255, 255, 0.1);
+  --overlay-heavy: rgba(255, 255, 255, 0.15);
+  --overlay-border: rgba(255, 255, 255, 0.2);
+  --overlay-border-heavy: rgba(255, 255, 255, 0.3);
+  --shadow-light: rgba(0, 0, 0, 0.2);
+  --shadow-medium: rgba(0, 0, 0, 0.3);
+  --shadow-heavy: rgba(0, 0, 0, 0.4);
+  --primary-light: rgba(255, 42, 57, 0.2);
+  --primary-border: rgba(255, 42, 57, 0.3);
+  --primary-shadow: rgba(255, 42, 57, 0.5);
+  --dropdown-bg: rgba(30, 30, 30, 0.95);
+  
+  /* Gradient colors */
+  --gradient-dark-1: #1a1a2e;
+  --gradient-dark-2: #16213e;
+  --gradient-dark-3: #0f3460;
+  --gradient-dark-4: #533483;
 }
 
 html,
@@ -16,9 +41,11 @@ body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Kalam', 'cursive', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
@@ -47,12 +74,12 @@ html {
 /* Selection styling */
 ::selection {
   background: var(--primary);
-  color: white;
+  color: var(--white);
 }
 
 ::-moz-selection {
   background: var(--primary);
-  color: white;
+  color: var(--white);
 }
 
 /* Focus visible for better accessibility */
@@ -67,14 +94,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--overlay-light);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--overlay-border);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--overlay-border-heavy);
 }

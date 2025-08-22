@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import noBgColorLogo from "../assets/noBgColor.png";
 import Loader from '../components/Loader.jsx';
 import styles from './Home.module.css';
+import pkg from '../../package.json';
 import { utils } from '../utils';
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
 
   const navigateToBusSchedule = (stand) => {
     if(stand){
-      navigate(`/bus/${stand}`);
+      navigate(`${pkg.homepage}/${stand}`);
     }
   }
 
@@ -59,8 +60,9 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.header}>
             <img src={noBgColorLogo} alt="LastBusX" className={styles.logo}/>
+            <h1 className={styles.tagline}>Never miss your ride</h1>
             <p className={styles.subtitle}>
-              Find bus schedules, catch the last bus on time, and more for your destination
+              Find bus schedules, catch the first or last bus on time, and more for your destination
             </p>
           </div>
 
