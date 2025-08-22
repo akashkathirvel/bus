@@ -445,7 +445,7 @@
      "bus": "T58",
      "origin": "செய்யாறு",
      "destination": "தேசூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "AM",
@@ -733,7 +733,7 @@
      "bus": "SAM",
      "origin": "ஆற்காடு",
      "destination": "கோவிலூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "AM",
@@ -781,7 +781,7 @@
      "bus": 428,
      "origin": "செய்யாறு",
      "destination": "திருவண்ணாமலை",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "AM",
@@ -1116,7 +1116,7 @@
      "bus": "SAM",
      "origin": "கோவிலூர்",
      "destination": "ஆற்காடு",
-     "via": "கலவை,"
+     "via": "கலவை"
     },
     {
      "time_part": "AM",
@@ -1124,7 +1124,7 @@
      "bus": "T58",
      "origin": "செய்யாறு",
      "destination": "தேசூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "AM",
@@ -1420,7 +1420,7 @@
      "bus": "T59",
      "origin": "செய்யாறு",
      "destination": "தேசூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "AM",
@@ -1540,7 +1540,7 @@
      "bus": "KMS முருகன்",
      "origin": "செய்யாறு",
      "destination": "ஆற்காடு",
-     "via": "கலவை,"
+     "via": "கலவை"
     },
     {
      "time_part": "AM",
@@ -1796,7 +1796,7 @@
      "bus": "T58",
      "origin": "செய்யாறு",
      "destination": "வல்லம்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -1988,7 +1988,7 @@
      "bus": "KMS முருகன்",
      "origin": "செய்யாறு",
      "destination": "ஆற்காடு",
-     "via": "கலவை,"
+     "via": "கலவை"
     },
     {
      "time_part": "PM",
@@ -2084,7 +2084,7 @@
      "bus": "SAM",
      "origin": "ஆற்காடு",
      "destination": "கோவிலூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -2228,7 +2228,7 @@
      "bus": "T58",
      "origin": "செய்யாறு",
      "destination": "தேசூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -2388,7 +2388,7 @@
      "bus": "SAM",
      "origin": "கோவிலூர்",
      "destination": "ஆற்காடு",
-     "via": "கலவை,"
+     "via": "கலவை"
     },
     {
      "time_part": "PM",
@@ -2476,7 +2476,7 @@
      "bus": "T6",
      "origin": "செய்யாறு",
      "destination": "வல்லம்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -2852,7 +2852,7 @@
      "bus": "T58",
      "origin": "செய்யாறு",
      "destination": "தேசூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -3068,7 +3068,7 @@
      "bus": "PRMS",
      "origin": "உத்திரமேரூர்",
      "destination": "சேத்துப்பட்டு",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -3116,7 +3116,7 @@
      "bus": "KMS முருகன்",
      "origin": "செய்யாறு",
      "destination": "ஆற்காடு",
-     "via": "கலவை,"
+     "via": "கலவை"
     },
     {
      "time_part": "PM",
@@ -3228,7 +3228,7 @@
      "bus": "PRMS",
      "origin": "செய்யாறு",
      "destination": "சேத்துப்பட்டு",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",
@@ -3396,7 +3396,7 @@
      "bus": "SAM",
      "origin": "கோவிலூர்",
      "destination": "ஆற்காடு",
-     "via": "கலவை,"
+     "via": "கலவை"
     },
     {
      "time_part": "PM",
@@ -3508,7 +3508,7 @@
      "bus": "T58",
      "origin": "செய்யாறு",
      "destination": "தேசூர்",
-     "via": "தவசி,"
+     "via": "தவசி"
     },
     {
      "time_part": "PM",

@@ -1,0 +1,111 @@
+.scheduleCard {
+  background: var(--overlay-medium);
+  border: 1px solid var(--overlay-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.scheduleCard:hover {
+  background: var(--overlay-heavy);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px var(--shadow-medium);
+}
+
+.scheduleTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--overlay-medium);
+}
+
+.time {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-family: 'Courier New', monospace;
+}
+
+.busNumber {
+  padding: 0.25rem 0.75rem;
+  background: var(--primary-light);
+  color: var(--white);
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid var(--primary-border);
+}
+
+.scheduleDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.route {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.origin, .destination, .via {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.value {
+  color: var(--white);
+  font-weight: 600;
+  text-align: right;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+
+.arrowIcon {
+  color: var(--primary);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scheduleCard {
+    padding: 1.25rem;
+  }
+  
+  .time {
+    font-size: 1.25rem;
+  }
+  
+  .origin, .destination, .via {
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .value {
+    text-align: left;
+    max-width: 100%;
+  }
+}

@@ -1,17 +1,20 @@
+import { Loader, FilterModal, ScheduleCard } from '../../components';
 import { useParams, useNavigate } from 'react-router-dom';
 import noBgColorLogo from "../../assets/noBgColor.png";
 import { useState, useEffect, useRef } from 'react';
-import { Loader } from '../../components';
 import styles from './index.module.css';
 import pkg from '../../../package.json';
 import { utils } from '../../utils';
 
 export default function BusSchedule() {
   const [isSortDropdownOpen, setIsSortDropdownOpen] = useState(false);
-  const [sortOption, setSortOption] = useState('early'); // 'early' or 'late'
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
+  const [filteredSchedules, setFilteredSchedules] = useState([]);
   const [selectedStand, setSelectedStand] = useState(null);
+  const [sortOption, setSortOption] = useState('early'); // 'early' or 'late'
   const [schedules, setSchedules] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [filters, setFilters] = useState({});
   const [error, setError] = useState(null);
   const sortDropdownRef = useRef(null);
   const navigate = useNavigate();
@@ -86,11 +89,48 @@ export default function BusSchedule() {
     setIsSortDropdownOpen(false);
   };
 
-  const getSortedSchedules = () => {
-    if (sortOption === 'late') {
-      return [...schedules].reverse();
+  const applyFilters = (newFilters) => {
+    setFilters(newFilters);
+    
+    let filtered = [...schedules];
+    
+    // Filter by time range
+    if (newFilters.timeFrom || newFilters.timeTo) {
+      filtered = filtered.filter(schedule => {
+        const scheduleTime = schedule.time;
+        const fromTime = newFilters.timeFrom ? parseTimeInput(newFilters.timeFrom) : 0;
+        const toTime = newFilters.timeTo ? parseTimeInput(newFilters.timeTo) : 24;
+        
+        return scheduleTime >= fromTime && scheduleTime <= toTime;
+      });
     }
-    return schedules;
+    
+    // Filter by destination
+    if (newFilters.destination) {
+      filtered = filtered.filter(schedule => {
+        const mainDest = schedule.destination?.toLowerCase();
+        const viaDests = schedule.via?.toLowerCase().split(',').map(dest => dest.trim());
+        
+        return mainDest === newFilters.destination.toLowerCase() || 
+               viaDests?.includes(newFilters.destination.toLowerCase());
+      });
+    }
+    
+    setFilteredSchedules(filtered);
+  };
+
+  const parseTimeInput = (timeInput) => {
+    if (!timeInput) return null;
+    const [hours, minutes] = timeInput.split(':').map(Number);
+    return hours + (minutes / 60);
+  };
+
+  const getSortedSchedules = () => {
+    const schedulesToSort = filteredSchedules.length > 0 ? filteredSchedules : schedules;
+    if (sortOption === 'late') {
+      return [...schedulesToSort].reverse();
+    }
+    return schedulesToSort;
   };
 
   if (loading) {
@@ -115,11 +155,11 @@ export default function BusSchedule() {
                 Try Again
               </button>
             </div>
-          </div>
-        </main>
-      </div>
-    );
-  }
+                  </div>
+      </main>
+    </div>
+  );
+}
 
   return (
     <div className={styles.container}>
@@ -157,28 +197,34 @@ export default function BusSchedule() {
             <div className={styles.scheduleHeaderContainer}>
               <div className={styles.scheduleHeader}>
                 <h3>Today's Bus Schedule</h3>
-                <p className={styles.scheduleCount}>{schedules.length} buses available</p>
+                <p className={styles.scheduleCount}>
+                  {getSortedSchedules().length} buses available
+                  {filteredSchedules.length > 0 && ` (filtered from ${schedules.length})`}
+                </p>
               </div>
               <div className={styles.scheduleHeaderActions}>
                 <div className={styles.scheduleFilter}>
-                  {/* Filter */}
-                  <button className={styles.filterButton}>
-                    <svg 
-                      width="20" 
-                      height="20" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      strokeWidth="2"
-                      strokeLinecap="round" 
-                      strokeLinejoin="round"
-                    >
-                      <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46" />
-                    </svg>
-                    <span>Filter</span>
-                  </button>
-                </div>
-                                 <div className={styles.scheduleSort} ref={sortDropdownRef}>
+                 {/* Filter */}
+                 <button 
+                   className={styles.filterButton}
+                   onClick={() => setIsFilterModalOpen(true)}
+                 >
+                   <svg 
+                     width="20" 
+                     height="20" 
+                     viewBox="0 0 24 24" 
+                     fill="none" 
+                     stroke="currentColor" 
+                     strokeWidth="2"
+                     strokeLinecap="round" 
+                     strokeLinejoin="round"
+                   >
+                     <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46" />
+                   </svg>
+                   <span>Filter</span>
+                 </button>
+               </div>
+                <div className={styles.scheduleSort} ref={sortDropdownRef}>
                    {/* Sort by */}
                    <button 
                      className={`${styles.sortButton} ${isSortDropdownOpen ? styles.active : ''}`}
@@ -268,51 +314,23 @@ export default function BusSchedule() {
 
             <div className={styles.scheduleList}>
               {getSortedSchedules().map((schedule, index) => (
-                <div key={index} className={styles.scheduleCard}>
-                  <div className={styles.scheduleTime}>
-                    <span className={styles.time}>
-                      {formatTime(schedule.time, schedule.time_part)} {schedule.time_part}
-                    </span>
-                    <span className={styles.busNumber}>
-                      {schedule.bus}
-                    </span>
-                  </div>
-                  
-                  <div className={styles.scheduleDetails}>
-                    <div className={styles.route}>
-                      <div className={styles.origin}>
-                        <span className={styles.value}>{schedule.origin}</span>
-                        <span className={styles.value}>
-                          <svg 
-                            width="24" 
-                            height="24" 
-                            fill="none"
-                            strokeWidth="2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            className={styles.arrowIcon}
-                          >
-                            <line x1="5" y1="12" x2="19" y2="12" />
-                            <polyline points="12 5 19 12 12 19" />
-                          </svg>
-                        </span>
-                        <span className={styles.value}>{schedule.destination}</span>
-                      </div>
-                    </div>
-                    
-                    <div className={styles.via}>
-                      <span className={styles.label}>Via:</span>
-                      <span className={styles.value}>{schedule.via}</span>
-                    </div>
-                  </div>
-                </div>
+                <ScheduleCard 
+                  key={index} 
+                  schedule={schedule} 
+                  formatTime={formatTime}
+                />
               ))}
             </div>
           </div>
         </div>
       </main>
+      <FilterModal
+        isOpen={isFilterModalOpen}
+        onClose={() => setIsFilterModalOpen(false)}
+        onApply={applyFilters}
+        schedules={schedules}
+        initialFilters={filters}
+      />
     </div>
   );
 }
