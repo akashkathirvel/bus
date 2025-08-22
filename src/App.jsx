@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import BusSchedule from './pages/BusSchedule';
+import BusSchedule from './pages/busschedule';
 import pkg from '../package.json';
-import Home from './pages/Home';
+import Home from './pages/home';
 
 function App() {
   return (

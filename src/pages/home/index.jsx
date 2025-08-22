@@ -1,10 +1,10 @@
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import noBgColorLogo from "../../assets/noBgColor.png";
 import { useState, useEffect, useRef } from 'react';
-import noBgColorLogo from "../assets/noBgColor.png";
-import Loader from '../components/Loader.jsx';
-import styles from './Home.module.css';
-import pkg from '../../package.json';
-import { utils } from '../utils';
+import { Loader } from '../../components';
+import styles from './index.module.css';
+import pkg from '../../../package.json';
+import { utils } from '../../utils';
 
 export default function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

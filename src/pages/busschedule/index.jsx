@@ -1,10 +1,10 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import noBgColorLogo from "../assets/noBgColor.png";
-import Loader from '../components/Loader.jsx';
-import styles from './BusSchedule.module.css';
+import noBgColorLogo from "../../assets/noBgColor.png";
 import { useState, useEffect } from 'react';
-import pkg from '../../package.json';
-import { utils } from '../utils';
+import { Loader } from '../../components';
+import styles from './index.module.css';
+import pkg from '../../../package.json';
+import { utils } from '../../utils';
 
 export default function BusSchedule() {
   const [selectedStand, setSelectedStand] = useState(null);
@@ -45,7 +45,7 @@ export default function BusSchedule() {
       setError(null);
       
       // Import the JSON file directly
-      const data = await import(`../data/${standValue}.json`);
+      const data = await import(`../../data/${standValue}.json`);
       setSchedules(data.default || data);
     } catch (err) {
       console.error('Error fetching bus schedules:', err);
