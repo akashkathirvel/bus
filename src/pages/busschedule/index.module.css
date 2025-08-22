@@ -133,11 +133,19 @@
   animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
-.scheduleHeader {
+.scheduleHeaderContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
+  gap: 0.5rem;
+}
+
+.scheduleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
   padding: 1rem 1.5rem;
   background: var(--overlay-medium);
   border-radius: 12px;
@@ -145,16 +153,128 @@
   border: 1px solid var(--overlay-border);
 }
 
+.scheduleHeaderActions {
+  gap: 0.5rem;
+  display: flex;
+}
+
+.scheduleFilter,
+.scheduleSort {
+  display: flex;
+  height: 3.5rem;
+  gap: 0.5rem;
+}
+
+.filterButton,
+.sortButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--overlay-medium);
+  border: 1px solid var(--overlay-border);
+  border-radius: 12px;
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.filterButton:hover,
+.sortButton:hover {
+  background: var(--overlay-heavy);
+  border-color: var(--overlay-border-heavy);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadow-medium);
+}
+
+.filterButton svg,
+.sortButton svg {
+  flex-shrink: 0;
+}
+
+.sortButton {
+  position: relative;
+}
+
+.sortButton.active {
+  background: var(--overlay-heavy);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-border);
+}
+
+.dropdownArrow {
+  transition: transform 0.3s ease;
+  color: var(--text-muted);
+}
+
+.dropdownArrow.rotated {
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.sortDropdownMenu {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background: var(--dropdown-bg);
+  border: 1px solid var(--overlay-medium);
+  border-radius: 12px;
+  margin-top: 0.5rem;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 40px var(--shadow-heavy);
+  z-index: 1000;
+  animation: slideDown 0.3s ease-out;
+  min-width: 200px;
+  overflow: hidden;
+}
+
+.sortDropdownItem {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid var(--overlay-light);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sortDropdownItem:last-child {
+  border-bottom: none;
+}
+
+.sortDropdownItem:hover {
+  background: var(--overlay-medium);
+  color: var(--primary);
+}
+
+.sortDropdownItem.selected {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.sortDropdownItem svg {
+  flex-shrink: 0;
+}
+
 .scheduleHeader h3 {
   color: var(--white);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
 }
 
 .scheduleCount {
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -350,14 +470,69 @@
     gap: 1.5rem;
   }
   
+  .scheduleHeaderActions {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
   .scheduleHeader {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
   
+  .scheduleFilter,
+  .scheduleSort {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .filterButton,
+  .sortButton {
+    flex: 1;
+    max-width: 150px;
+    justify-content: center;
+  }
+  
   .scheduleList {
     grid-template-columns: 1fr;
+  }
+  
+  .filterButton,
+  .sortButton {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .sortDropdownMenu {
+    min-width: 160px;
+  }
+  
+  .sortDropdownItem {
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .filterButton svg,
+  .sortButton svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .scheduleFilter,
+  .scheduleSort  {
+    height: 2.75rem; 
+    width: 100%;
+  }
+
+  .sortDropdownMenu {
+    top: 100px;
+    min-width: 180px;
+  }
+  
+  .sortDropdownItem {
+    padding: 0.875rem 1.25rem;
+    font-size: 0.85rem;
   }
   
   .scheduleCard {
@@ -387,7 +562,17 @@
   .content {
     gap: 1rem;
   }
+
+  .scheduleHeader {
+    width: 100%;
+  }
   
+  .scheduleFilter,
+  .scheduleSort  {
+    height: 2.75rem; 
+    width: 100%;
+  }
+
   .header {
     align-items: center;
     flex-direction: column;

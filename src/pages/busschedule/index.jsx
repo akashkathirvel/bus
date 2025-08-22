@@ -1,16 +1,19 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import noBgColorLogo from "../../assets/noBgColor.png";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Loader } from '../../components';
 import styles from './index.module.css';
 import pkg from '../../../package.json';
 import { utils } from '../../utils';
 
 export default function BusSchedule() {
+  const [isSortDropdownOpen, setIsSortDropdownOpen] = useState(false);
+  const [sortOption, setSortOption] = useState('early'); // 'early' or 'late'
   const [selectedStand, setSelectedStand] = useState(null);
   const [schedules, setSchedules] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const sortDropdownRef = useRef(null);
   const navigate = useNavigate();
   const params = useParams();
 
@@ -39,6 +42,20 @@ export default function BusSchedule() {
     }
   }, [params, navigate]);
 
+  // Handle clicking outside sort dropdown to close it
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (sortDropdownRef.current && !sortDropdownRef.current.contains(event.target)) {
+        setIsSortDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   const fetchBusSchedules = async (standValue) => {
     try {
       setLoading(true);
@@ -62,6 +79,18 @@ export default function BusSchedule() {
     }
     timeString = timeString < 10 ? `0${timeString}` : timeString;
     return timeString.replace('.', ':');
+  };
+
+  const handleSortOptionSelect = (option) => {
+    setSortOption(option);
+    setIsSortDropdownOpen(false);
+  };
+
+  const getSortedSchedules = () => {
+    if (sortOption === 'late') {
+      return [...schedules].reverse();
+    }
+    return schedules;
   };
 
   if (loading) {
@@ -125,13 +154,120 @@ export default function BusSchedule() {
           </div>
 
           <div className={styles.scheduleSection}>
-            <div className={styles.scheduleHeader}>
-              <h3>Today's Bus Schedule</h3>
-              <p className={styles.scheduleCount}>{schedules.length} buses available</p>
+            <div className={styles.scheduleHeaderContainer}>
+              <div className={styles.scheduleHeader}>
+                <h3>Today's Bus Schedule</h3>
+                <p className={styles.scheduleCount}>{schedules.length} buses available</p>
+              </div>
+              <div className={styles.scheduleHeaderActions}>
+                <div className={styles.scheduleFilter}>
+                  {/* Filter */}
+                  <button className={styles.filterButton}>
+                    <svg 
+                      width="20" 
+                      height="20" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      strokeWidth="2"
+                      strokeLinecap="round" 
+                      strokeLinejoin="round"
+                    >
+                      <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46" />
+                    </svg>
+                    <span>Filter</span>
+                  </button>
+                </div>
+                                 <div className={styles.scheduleSort} ref={sortDropdownRef}>
+                   {/* Sort by */}
+                   <button 
+                     className={`${styles.sortButton} ${isSortDropdownOpen ? styles.active : ''}`}
+                     onClick={() => setIsSortDropdownOpen(!isSortDropdownOpen)}
+                     aria-expanded={isSortDropdownOpen}
+                     aria-haspopup="listbox"
+                   >
+                     <svg 
+                       width="20" 
+                       height="20" 
+                       viewBox="0 0 24 24" 
+                       fill="none" 
+                       stroke="currentColor" 
+                       strokeWidth="2"
+                       strokeLinecap="round" 
+                       strokeLinejoin="round"
+                     >
+                       <path d="M3 6h18" />
+                       <path d="M6 12h12" />
+                       <path d="M9 18h6" />
+                     </svg>
+                     <span>Sort</span>
+                     <svg 
+                       width="16" 
+                       height="16" 
+                       viewBox="0 0 24 24" 
+                       fill="none" 
+                       stroke="currentColor" 
+                       strokeWidth="2"
+                       strokeLinecap="round" 
+                       strokeLinejoin="round"
+                       className={`${styles.dropdownArrow} ${isSortDropdownOpen ? styles.rotated : ''}`}
+                     >
+                       <polyline points="6 9 12 15 18 9" />
+                     </svg>
+                   </button>
+
+                   {isSortDropdownOpen && (
+                     <div className={styles.sortDropdownMenu}>
+                       <button
+                         className={`${styles.sortDropdownItem} ${sortOption === 'early' ? styles.selected : ''}`}
+                         onClick={() => handleSortOptionSelect('early')}
+                         role="option"
+                         aria-selected={sortOption === 'early'}
+                       >
+                         <svg 
+                           width="16" 
+                           height="16" 
+                           viewBox="0 0 24 24" 
+                           fill="none" 
+                           stroke="currentColor" 
+                           strokeWidth="2"
+                           strokeLinecap="round" 
+                           strokeLinejoin="round"
+                         >
+                           <path d="M12 19V5" />
+                           <path d="M5 12l7-7 7 7" />
+                         </svg>
+                         <span>Early departure first</span>
+                       </button>
+                       <button
+                         className={`${styles.sortDropdownItem} ${sortOption === 'late' ? styles.selected : ''}`}
+                         onClick={() => handleSortOptionSelect('late')}
+                         role="option"
+                         aria-selected={sortOption === 'late'}
+                       >
+                         <svg 
+                           width="16" 
+                           height="16" 
+                           viewBox="0 0 24 24" 
+                           fill="none" 
+                           stroke="currentColor" 
+                           strokeWidth="2"
+                           strokeLinecap="round" 
+                           strokeLinejoin="round"
+                         >
+                           <path d="M12 5v14" />
+                           <path d="M19 12l-7 7-7-7" />
+                         </svg>
+                         <span>Late departure first</span>
+                       </button>
+                     </div>
+                   )}
+                 </div>
+              </div>
             </div>
 
             <div className={styles.scheduleList}>
-              {schedules.map((schedule, index) => (
+              {getSortedSchedules().map((schedule, index) => (
                 <div key={index} className={styles.scheduleCard}>
                   <div className={styles.scheduleTime}>
                     <span className={styles.time}>
