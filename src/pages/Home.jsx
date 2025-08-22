@@ -1,18 +1,17 @@
 import { useState, useEffect, useRef } from 'react';
+import noBgColorLogo from "../assets/noBgColor.png";
 import { useNavigate } from 'react-router-dom';
-import styles from './Home.module.css';
-import standsData from '../data/stands.json';
 import Loader from '../components/Loader.jsx';
+import standsData from '../data/stands.json';
+import styles from './Home.module.css';
 
 export default function Home() {
-  const [selectedStand, setSelectedStand] = useState('');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isNavigating, setIsNavigating] = useState(false);
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
 
   const handleStandSelect = async (stand) => {
-    setSelectedStand(stand);
     setIsDropdownOpen(false);
     setIsNavigating(true);
     
@@ -47,12 +46,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.header}>
-            <h1 className={styles.title}>
-              <span className={styles.busIcon}>🚌</span>
-              Bus Schedule Finder
-            </h1>
+            <img src={noBgColorLogo} alt="LastBusX" className={styles.logo}/>
             <p className={styles.subtitle}>
-              Find bus schedules for your destination
+              Find bus schedules, catch the last bus on time, and more for your destination
             </p>
           </div>
 

@@ -18,6 +18,11 @@
   z-index: -2;
 }
 
+.logo {
+  width: 300px;
+  height: 85px;
+}
+
 .backgroundOverlay {
   position: absolute;
   top: 0;

@@ -79,6 +79,11 @@
   letter-spacing: -0.02em;
 }
 
+.logo {
+  width: 300px;
+  height: 85px;
+}
+
 .busIcon {
   display: inline-block;
   margin-right: 0.5rem;
@@ -86,7 +91,22 @@
 }
 
 .standInfo {
-  margin-top: 1rem;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editButton {
+  border: none;
+  padding: 8px;
+  height: 48px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
 }
 
 .standName {
@@ -360,6 +380,12 @@
   
   .content {
     gap: 1rem;
+  }
+  
+  .header {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
   }
   
   .title {

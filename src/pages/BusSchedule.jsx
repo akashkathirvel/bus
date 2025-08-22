@@ -1,17 +1,18 @@
-import { useState, useEffect } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import noBgColorLogo from "../assets/noBgColor.png";
+import Loader from '../components/Loader.jsx';
 import styles from './BusSchedule.module.css';
 import standsData from '../data/stands.json';
-import Loader from '../components/Loader.jsx';
+import { useState, useEffect } from 'react';
 import pkg from '../../package.json';
 
 export default function BusSchedule() {
-  const params = useParams();
-  const navigate = useNavigate();
   const [selectedStand, setSelectedStand] = useState(null);
   const [schedules, setSchedules] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
+  const params = useParams();
 
   useEffect(() => {
     const { selected } = params;
@@ -30,7 +31,7 @@ export default function BusSchedule() {
     // Fetch bus schedule data directly from JSON file
     fetchBusSchedules(selected);
 
-    let title = `${stand.label} - Bus Schedule - AK`;
+    let title = `${stand.label} - LastBusX - AK`;
     document.title = title;
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
@@ -100,16 +101,26 @@ export default function BusSchedule() {
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.header}>
-            <Link to={pkg.homepage} className={styles.backButton}>
-              ← Back to Search
-            </Link>
-            <h1 className={styles.title}>
-              <span className={styles.busIcon}>🚌</span>
-              Bus Schedules
-            </h1>
+            <img src={noBgColorLogo} alt="LastBusX" className={styles.logo}/>
             <div className={styles.standInfo}>
               <h2 className={styles.standName}>{selectedStand?.label}</h2>
-              {/* <p className={styles.standCode}>Stand Code: {selectedStand?.value}</p> */}
+              <button className={styles.editButton} onClick={() => navigate(pkg.homepage)}>
+                <svg 
+                  width="16" 
+                  height="16" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="2"
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                  style={{marginRight: '4px'}}
+                >
+                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                </svg>
+                <span>Change</span>
+              </button>
             </div>
           </div>
 
