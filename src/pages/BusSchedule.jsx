@@ -2,9 +2,9 @@ import { useParams, useNavigate } from 'react-router-dom';
 import noBgColorLogo from "../assets/noBgColor.png";
 import Loader from '../components/Loader.jsx';
 import styles from './BusSchedule.module.css';
-import standsData from '../data/stands.json';
 import { useState, useEffect } from 'react';
 import pkg from '../../package.json';
+import { utils } from '../utils';
 
 export default function BusSchedule() {
   const [selectedStand, setSelectedStand] = useState(null);
@@ -18,9 +18,9 @@ export default function BusSchedule() {
     const { selected } = params;
     
     // Find the selected stand from the data
-    const stand = standsData.find(s => s.value === selected);
+    const stand = utils.getStand(selected);
     
-    if (!stand) {
+    if (!utils.checkIfStandDataExist(selected)) {
       // If stand not found, redirect to home
       navigate(pkg.homepage);
       return;

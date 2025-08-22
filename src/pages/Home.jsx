@@ -1,13 +1,14 @@
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import noBgColorLogo from "../assets/noBgColor.png";
-import { useNavigate } from 'react-router-dom';
 import Loader from '../components/Loader.jsx';
-import standsData from '../data/stands.json';
 import styles from './Home.module.css';
+import { utils } from '../utils';
 
 export default function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isNavigating, setIsNavigating] = useState(false);
+  const [searchParams] = useSearchParams();
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
 
@@ -16,11 +17,22 @@ export default function Home() {
     setIsNavigating(true);
     
     // Navigate to the bus schedule page
-    navigate(`/bus/${stand.value}`);
+    navigateToBusSchedule(stand.value);
   };
+
+  const navigateToBusSchedule = (stand) => {
+    if(stand){
+      navigate(`/bus/${stand}`);
+    }
+  }
 
   // Handle clicking outside dropdown to close it
   useEffect(() => {
+    let stand = searchParams.get("stand");
+    if(stand && utils.checkIfStandDataExist(stand)) {
+      navigateToBusSchedule(stand);
+    }
+
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsDropdownOpen(false);
@@ -75,7 +87,7 @@ export default function Home() {
 
                 {isDropdownOpen && (
                   <div className={styles.dropdownMenu}>
-                    {standsData.map((stand, index) => (
+                    {utils.getStands().map((stand, index) => (
                       <button
                         key={stand.value}
                         className={styles.dropdownItem}
