@@ -2,7 +2,7 @@
   "name": "bus",
   "title": "LastBusX - AK",
   "description": "Find bus schedules, last bus, and more for your destination",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "/bus",
   "private": true,
   "type": "module",
