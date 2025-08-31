@@ -1,0 +1,1 @@
+const i={time:"Time",bus:"Bus Name / Number",origin:"Origin",destination:"Destination",via:"Via"},n={time:"நேரம்",bus:"தடம் எண்",origin:"புறப்படும் இடம்",destination:"சேறும் இடம்",via:"வழி"},t={en:i,ta:n};export{t as default,i as en,n as ta};
