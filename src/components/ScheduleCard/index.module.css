@@ -24,7 +24,7 @@
 }
 
 .time {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--primary);
   font-family: 'Courier New', monospace;
@@ -67,10 +67,10 @@
 }
 
 .value {
-  color: var(--white);
+  max-width: 75%;
   font-weight: 600;
   text-align: right;
-  max-width: 60%;
+  color: var(--white);
   word-wrap: break-word;
 }
 
@@ -100,12 +100,30 @@
   }
   
   .origin, .destination, .via {
-    align-items: flex-start;
+    align-items: center;
     gap: 0.25rem;
   }
   
   .value {
     text-align: left;
     max-width: 100%;
+    display: flex;
+  }
+
+  .via .value {
+    text-align: right;
+  }
+}
+
+@media (max-width: 520px) {
+  .scheduleCard {
+    padding: 1rem;
+  }
+  .scheduleDetails {
+    gap: 0.25rem;
+  }
+  .scheduleTime {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 }

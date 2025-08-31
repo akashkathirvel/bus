@@ -1,22 +1,22 @@
 import React from 'react';
 import styles from './index.module.css';
 
-const ScheduleCard = ({ schedule, formatTime }) => {
+const ScheduleCard = ({ schedule, formatTime, language, id }) => {
   return (
-    <div className={styles.scheduleCard}>
+    <div className={styles.scheduleCard} key={id} id={id}>
       <div className={styles.scheduleTime}>
         <span className={styles.time}>
           {formatTime(schedule.time, schedule.time_part)} {schedule.time_part}
         </span>
         <span className={styles.busNumber}>
-          {schedule.bus}
+          {schedule["bus_" + language]}
         </span>
       </div>
       
       <div className={styles.scheduleDetails}>
         <div className={styles.route}>
           <div className={styles.origin}>
-            <span className={styles.value}>{schedule.origin}</span>
+            <span className={styles.value}>{schedule["origin_" + language]}</span>
             <span className={styles.value}>
               <svg 
                 width="24" 
@@ -33,13 +33,13 @@ const ScheduleCard = ({ schedule, formatTime }) => {
                 <polyline points="12 5 19 12 12 19" />
               </svg>
             </span>
-            <span className={styles.value}>{schedule.destination}</span>
+            <span className={styles.value}>{schedule["destination_" + language]}</span>
           </div>
         </div>
         
         <div className={styles.via}>
           <span className={styles.label}>Via:</span>
-          <span className={styles.value}>{schedule.via}</span>
+          <span className={styles.value}>{schedule["via_" + language]}</span>
         </div>
       </div>
     </div>

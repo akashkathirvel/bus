@@ -1,4 +1,4 @@
-import { Loader, FilterModal, ScheduleCard } from '../../components';
+import { Loader, FilterModal, ScheduleCard, NoBusesFound } from '../../components';
 import { useParams, useNavigate } from 'react-router-dom';
 import noBgColorLogo from "../../assets/noBgColor.png";
 import { useState, useEffect, useRef } from 'react';
@@ -12,7 +12,9 @@ export default function BusSchedule() {
   const [filteredSchedules, setFilteredSchedules] = useState([]);
   const [selectedStand, setSelectedStand] = useState(null);
   const [sortOption, setSortOption] = useState('early'); // 'early' or 'late'
+  const [destinations, setDestinations] = useState([]);
   const [schedules, setSchedules] = useState([]);
+  const [language, setLanguage] = useState('ta');
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState({});
   const [error, setError] = useState(null);
@@ -59,6 +61,31 @@ export default function BusSchedule() {
     };
   }, []);
 
+
+  // Extract unique destinations from schedules
+  const extractDestinations = (data = []) => {
+    if (data.length > 0) {
+      const uniqueDestinations = new Set();
+      
+      data.forEach(schedule => {
+        // Add main destination
+        if (schedule["destination_" + language]) {
+          uniqueDestinations.add(schedule["destination_" + language]);
+        }
+        
+        // Add via destinations (comma-separated)
+        if (schedule["via_" + language]) {
+          const viaDestinations = schedule["via_" + language].split(',').map(dest => dest.trim());
+          viaDestinations.forEach(dest => {
+            if (dest) uniqueDestinations.add(dest);
+          });
+        }
+      });
+      
+      setDestinations(Array.from(uniqueDestinations).sort());
+    }
+  }
+
   const fetchBusSchedules = async (standValue) => {
     try {
       setLoading(true);
@@ -67,6 +94,7 @@ export default function BusSchedule() {
       // Import the JSON file directly
       const data = await import(`../../data/${standValue}.json`);
       setSchedules(data.default || data);
+      extractDestinations(data.default || data);
     } catch (err) {
       console.error('Error fetching bus schedules:', err);
       setError('Failed to load bus schedules. Please try again.');
@@ -108,8 +136,8 @@ export default function BusSchedule() {
     // Filter by destination
     if (newFilters.destination) {
       filtered = filtered.filter(schedule => {
-        const mainDest = schedule.destination?.toLowerCase();
-        const viaDests = schedule.via?.toLowerCase().split(',').map(dest => dest.trim());
+        const mainDest = schedule["destination_" + language]?.toLowerCase();
+        const viaDests = schedule["via_" + language]?.toLowerCase().split(',').map(dest => dest.trim());
         
         return mainDest === newFilters.destination.toLowerCase() || 
                viaDests?.includes(newFilters.destination.toLowerCase());
@@ -119,14 +147,32 @@ export default function BusSchedule() {
     setFilteredSchedules(filtered);
   };
 
+  const onChangeFilter = (key = '', value = '') => {
+    let filt = { ...filters, [key]: value };
+    applyFilters(filt);
+  }
+
   const parseTimeInput = (timeInput) => {
     if (!timeInput) return null;
     const [hours, minutes] = timeInput.split(':').map(Number);
     return hours + (minutes / 60);
   };
 
+  const checkIfObjectHasAnyValue = (obj = {}) => {
+    return Object.values(obj).some(value => !!value);
+  }
+
+  const getFilteredSchedules = () => {
+    const hasFilters = checkIfObjectHasAnyValue(filters);
+    let schedulesToSort = schedules;
+    if(hasFilters) {
+      schedulesToSort = filteredSchedules;
+    }
+    return schedulesToSort;
+  }
+
   const getSortedSchedules = () => {
-    const schedulesToSort = filteredSchedules.length > 0 ? filteredSchedules : schedules;
+    let schedulesToSort = getFilteredSchedules();
     if (sortOption === 'late') {
       return [...schedulesToSort].reverse();
     }
@@ -155,11 +201,11 @@ export default function BusSchedule() {
                 Try Again
               </button>
             </div>
-                  </div>
-      </main>
-    </div>
-  );
-}
+          </div>
+        </main>
+      </div>
+    );
+  }
 
   return (
     <div className={styles.container}>
@@ -198,9 +244,28 @@ export default function BusSchedule() {
               <div className={styles.scheduleHeader}>
                 <h3>Today's Bus Schedule</h3>
                 <p className={styles.scheduleCount}>
-                  {getSortedSchedules().length} buses available
-                  {filteredSchedules.length > 0 && ` (filtered from ${schedules.length})`}
+                  {getFilteredSchedules().length} buses available
+                  {checkIfObjectHasAnyValue(filters) && ` (filtered from ${schedules.length})`}
                 </p>
+              </div>
+            </div>
+
+            <div className={styles.scheduleHeaderActionsContainer}>
+              <div className={styles.filterSection}>
+                <div className={styles.selectWrapper}>
+                  <select
+                    className={styles.select}
+                    value={filters.destination}
+                    onChange={(e) => onChangeFilter('destination', e.target.value)}
+                  >
+                    <option value="">All destinations</option>
+                    {destinations.map((dest, index) => (
+                      <option key={index} value={dest}>
+                        {dest}
+                      </option>
+                    ))}
+                  </select>
+                </div>
               </div>
               <div className={styles.scheduleHeaderActions}>
                 <div className={styles.scheduleFilter}>
@@ -313,24 +378,34 @@ export default function BusSchedule() {
             </div>
 
             <div className={styles.scheduleList}>
-              {getSortedSchedules().map((schedule, index) => (
-                <ScheduleCard 
-                  key={index} 
-                  schedule={schedule} 
-                  formatTime={formatTime}
-                />
-              ))}
+              {
+                getFilteredSchedules().length > 0 
+                  ? getSortedSchedules().map((schedule, index) => (
+                    <ScheduleCard 
+                      key={index} 
+                      language={language}
+                      schedule={schedule} 
+                      formatTime={formatTime}
+                      id={"schedule-card-"+index}
+                    />
+                  )) 
+                  : <NoBusesFound />
+              }
             </div>
           </div>
         </div>
       </main>
-      <FilterModal
-        isOpen={isFilterModalOpen}
-        onClose={() => setIsFilterModalOpen(false)}
-        onApply={applyFilters}
-        schedules={schedules}
-        initialFilters={filters}
-      />
+      {isFilterModalOpen && (
+          <FilterModal
+            onClose={() => setIsFilterModalOpen(false)}
+            destinations={destinations}
+            isOpen={isFilterModalOpen}
+            initialFilters={filters}
+            onApply={applyFilters}
+            language={language}
+          />
+        )
+      }
     </div>
   );
 }

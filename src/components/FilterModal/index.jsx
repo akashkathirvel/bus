@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import Modal from '../Modal';
-import Button from '../Button';
+import React, { useState } from 'react';
 import styles from './index.module.css';
+import Button from '../Button';
+import Modal from '../Modal';
 
 const FilterModal = ({ 
   isOpen, 
   onClose, 
   onApply, 
-  schedules = [],
+  language,
+  destinations = [],
   initialFilters = {} 
 }) => {
   const [filters, setFilters] = useState({
@@ -16,32 +17,6 @@ const FilterModal = ({
     destination: '',
     ...initialFilters
   });
-
-  const [destinations, setDestinations] = useState([]);
-
-  // Extract unique destinations from schedules
-  useEffect(() => {
-    if (schedules.length > 0) {
-      const uniqueDestinations = new Set();
-      
-      schedules.forEach(schedule => {
-        // Add main destination
-        if (schedule.destination) {
-          uniqueDestinations.add(schedule.destination);
-        }
-        
-        // Add via destinations (comma-separated)
-        if (schedule.via) {
-          const viaDestinations = schedule.via.split(',').map(dest => dest.trim());
-          viaDestinations.forEach(dest => {
-            if (dest) uniqueDestinations.add(dest);
-          });
-        }
-      });
-      
-      setDestinations(Array.from(uniqueDestinations).sort());
-    }
-  }, [schedules]);
 
   const handleInputChange = (field, value) => {
     setFilters(prev => ({
