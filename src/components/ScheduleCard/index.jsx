@@ -1,7 +1,9 @@
 import React from 'react';
+import { utils } from '../../utils';
 import styles from './index.module.css';
 
 const ScheduleCard = ({ schedule, formatTime, language, id }) => {
+  const languageData = utils.geti18n();
   return (
     <div className={styles.scheduleCard} key={id} id={id}>
       <div className={styles.scheduleTime}>
@@ -38,7 +40,7 @@ const ScheduleCard = ({ schedule, formatTime, language, id }) => {
         </div>
         
         <div className={styles.via}>
-          <span className={styles.label}>Via:</span>
+          <span className={styles.label}>{languageData.via}:</span>
           <span className={styles.value}>{schedule["via_" + language]}</span>
         </div>
       </div>

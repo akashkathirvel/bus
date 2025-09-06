@@ -4,6 +4,7 @@ import Modal from './Modal';
 import FilterModal from './FilterModal';
 import ScheduleCard from './ScheduleCard';
 import NoBusesFound from './NoBusesFound';
+import LanguageDropdown from './LanguageDropdown';
 
 export { 
   Loader, 
@@ -11,5 +12,6 @@ export {
   Modal, 
   FilterModal, 
   ScheduleCard,
-  NoBusesFound
+  NoBusesFound,
+  LanguageDropdown
 };

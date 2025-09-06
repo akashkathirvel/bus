@@ -1,7 +1,7 @@
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { Loader, LanguageDropdown } from '../../components';
 import noBgColorLogo from "../../assets/noBgColor.png";
 import { useState, useEffect, useRef } from 'react';
-import { Loader } from '../../components';
 import styles from './index.module.css';
 import pkg from '../../../package.json';
 import { utils } from '../../utils';
@@ -10,6 +10,7 @@ export default function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isNavigating, setIsNavigating] = useState(false);
   const [searchParams] = useSearchParams();
+  const language = utils.getLanguage();
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
 
@@ -56,6 +57,11 @@ export default function Home() {
         <div className={styles.backgroundOverlay}></div>
       </div>
       
+      {/* Language Dropdown */}
+      <div className={styles.languageContainer}>
+        <LanguageDropdown />
+      </div>
+      
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.header}>
@@ -91,12 +97,12 @@ export default function Home() {
                   <div className={styles.dropdownMenu}>
                     {utils.getStands().map((stand, index) => (
                       <button
+                        role="option"
                         key={stand.value}
                         className={styles.dropdownItem}
                         onClick={() => handleStandSelect(stand)}
-                        role="option"
                       >
-                        {stand.label}
+                        {stand[`label_${language}`]}
                       </button>
                     ))}
                   </div>

@@ -117,13 +117,16 @@
 
 @media (max-width: 520px) {
   .scheduleCard {
-    padding: 1rem;
+    padding: 0.5rem 0.75rem;
   }
   .scheduleDetails {
     gap: 0.25rem;
   }
   .scheduleTime {
     margin-bottom: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+  .busNumber {
+    padding: 0rem 0.5rem;
   }
 }

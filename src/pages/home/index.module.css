@@ -8,6 +8,13 @@
   overflow: hidden;
 }
 
+.languageContainer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
 .background {
   position: absolute;
   top: 0;
@@ -107,7 +114,7 @@
   font-weight: 600;
   color: var(--white);
   text-align: left;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .dropdownWrapper {
@@ -316,6 +323,11 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .languageContainer {
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+  
   .main {
     padding: 1rem;
   }
@@ -349,6 +361,11 @@
 }
 
 @media (max-width: 480px) {
+  .languageContainer {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  
   .main {
     padding: 0.75rem;
   }

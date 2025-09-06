@@ -1,4 +1,4 @@
-import { Loader, FilterModal, ScheduleCard, NoBusesFound } from '../../components';
+import { Loader, FilterModal, ScheduleCard, NoBusesFound, LanguageDropdown } from '../../components';
 import { useParams, useNavigate } from 'react-router-dom';
 import noBgColorLogo from "../../assets/noBgColor.png";
 import { useState, useEffect, useRef } from 'react';
@@ -14,11 +14,11 @@ export default function BusSchedule() {
   const [sortOption, setSortOption] = useState('early'); // 'early' or 'late'
   const [destinations, setDestinations] = useState([]);
   const [schedules, setSchedules] = useState([]);
-  const [language, setLanguage] = useState('ta');
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState({});
   const [error, setError] = useState(null);
   const sortDropdownRef = useRef(null);
+  const language = utils.getLanguage();
   const navigate = useNavigate();
   const params = useParams();
 
@@ -213,29 +213,40 @@ export default function BusSchedule() {
         <div className={styles.backgroundOverlay}></div>
       </div>
       
+      {/* Language Dropdown */}
+      <div className={`${styles.languageContainer} ${styles.desktop}`}>
+        <LanguageDropdown />
+      </div>
+      
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.header}>
             <img src={noBgColorLogo} alt="LastBusX" className={styles.logo}/>
-            <div className={styles.standInfo}>
-              <h2 className={styles.standName}>{selectedStand?.label}</h2>
-              <button className={styles.editButton} onClick={() => navigate(pkg.homepage)}>
-                <svg 
-                  width="16" 
-                  height="16" 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  strokeWidth="2"
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                  style={{marginRight: '4px'}}
-                >
-                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
-                </svg>
-                <span>Change</span>
+            <div className={styles.headerRightContainer}>
+              <button className={styles.standInfo} onClick={() => navigate(pkg.homepage)}>
+                <h2 className={styles.standName}>{selectedStand[`label_${language}`]}</h2>
+                <div className={styles.editButton}>
+                  <svg 
+                    width="16" 
+                    height="16" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2"
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                    style={{marginRight: '4px'}}
+                  >
+                    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                  </svg>
+                  <span>Change</span>
+                </div>
               </button>
+              {/* Language Dropdown */}
+              <div className={`${styles.languageContainer} ${styles.langMobile} ${styles.mobile}`}>
+                <LanguageDropdown isMobile={true}/>
+              </div>
             </div>
           </div>
 
